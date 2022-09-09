@@ -12,3 +12,4 @@ def crypto(filename, cypher):
 # DO NOT touch the lines below
 if __name__ == "__main__":
     crypto('hello.txt', lambda x: chr((ord(x) + 5) % 256))
+
